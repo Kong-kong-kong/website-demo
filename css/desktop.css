@@ -394,12 +394,6 @@ img:not([src]):after {
   display: none;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  .reveal[class*='delay'] {
-    transition: none;
-  }
-}
-
 @media (forced-colors: active) {
   .reveal[class*='delay'] {
     border: 1px solid CanvasText;
